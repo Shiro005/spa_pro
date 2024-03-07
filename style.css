@@ -1,0 +1,264 @@
+/* we are this type of style css for clean code and maintainable  */
+/* google font import  */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+/* classes  */
+.containers {
+    height: 100vh;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+
+.logo_img {
+    height: 30px;
+    width: 30px;
+    margin: 0px 10px;
+}
+
+.navbar_para {
+    font-weight: bold;
+    font-size: 1rem;
+    text-decoration: 2px underline;
+    font-family: "Roboto Condensed", sans-serif;
+    color: rgb(34, 34, 34);
+    font-style: italic;
+    margin: 0px 10px;
+}
+
+.big_num {
+    display: flex;
+    width: fit-content;
+}
+
+.big_num .box1 {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 26px;
+    justify-content: end;
+}
+
+.big_num h1 {
+    font-size: 7rem;
+    color: rgba(14, 14, 14, 0.651);
+    padding: 0px;
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: bold;
+    margin: 0px 4px;
+}
+
+.box1 h3 {
+    font-weight: bold;
+    font-size: 2rem;
+    color: rgba(19, 19, 19, 0.753);
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+.big_num .box2 {
+    height: 20px;
+    width: 20px;
+    background-color: rgba(14, 14, 14, 0.651);
+    border-radius: 2px;
+}
+
+/* Normal css  */
+#container_1 {
+    background: url(./assets/image_1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+#navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin: 5px 0px;
+}
+
+#sub_navbar {
+    display: flex;
+}
+
+#heading_text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 84vh;
+    width: 100%;
+    font-weight: bold;
+    font-family: "Roboto Condensed", sans-serif;
+    color: rgb(34, 34, 34);
+    font-size: 2rem;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+#footer {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+#sub_footer1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: "Roboto Condensed", sans-serif;
+    color: rgb(34, 34, 34);
+}
+
+#sub_footer2 {
+    display: flex;
+}
+
+#container_2 {
+    background: url(./assets/image_2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+#sub_container2_1 {
+    width: 80%;
+    margin: auto;
+    height: 67%;
+}
+
+#container2_text {
+    margin-left: 15px;
+    font-family: "Roboto Condensed", sans-serif;
+    color: rgb(34, 34, 34);
+    font-size: 1rem;
+    padding-left: 15px;
+}
+
+#sub_container2_2 {
+    height: 33%;
+    background-color: rgba(0, 10, 19, 0.671);
+}
+
+.big_image {
+    height: 180px;
+    width: 280px;
+    border-radius: 7px;
+}
+
+.big_image:hover {
+    opacity: 60%;
+    height: 175px;
+    width: 275px;
+}
+
+.scroll-content li {
+    list-style-type: none;
+    padding: 10px;
+}
+
+.scroll-container {
+    width: 80%;
+    overflow-x: auto;
+    white-space: nowrap;
+    margin: auto;
+}
+
+.scroll-content {
+    width: 1000px;
+}
+
+.scroll-item {
+    display: inline-block;
+    padding: 0px 5px;
+    margin: 1px;
+    background-color: transparent;
+}
+
+.scroll-container::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+.scroll-container::-webkit-scrollbar-thumb {
+    background-color: rgb(243, 243, 243);
+    border-radius: 10px;
+}
+
+.scroll-container::-webkit-scrollbar-thumb:hover {
+    background-color: #555;
+}
+
+.scroll-container::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
+
+#container_3 {
+    background: url(./assets/image_3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+#sub_container3_1 {
+    background-color: white;
+    padding: 10px 130px;
+    display: flex;
+    flex-direction: row;
+}
+
+#container3_text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+}
+
+#navbar_slide3 {
+    display: flex;
+    padding: 0px 130px;
+    background-color: #20343d;
+}
+
+#navbar_slide3 h2 {
+    padding: 10px;
+    font-weight: bold;
+    font-family: "Roboto Condensed", sans-serif;
+    color: rgb(197, 196, 196);
+}
+
+#navbar_slide3 h2:hover {
+    background-color: #f1f1f165;
+    color: #20343d;
+}
+
+#schedule{
+    border: 1px solid black;
+    background-color: white;
+    height: max-content;
+}
+
+#schedule_heading{
+    border: 1px solid red;
+    font-weight: bold;
+    font-family: "Roboto Condensed", sans-serif;
+    color: #20343d;
+    padding: 10px;
+}
+
+#schedule_body{
+    border: 1px solid green;
+}
